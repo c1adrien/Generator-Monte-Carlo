@@ -30,6 +30,9 @@ We built a Bayesian Variational Autoencoder (VAE) to generalize PCA on swaption 
 
 ![Alt Text](https://github.com/c1adrien/Economic_scenario_generators/blob/main/vae.png)
 
+
+
+![Alt Text](https://github.com/c1adrien/Economic_scenario_generators/blob/main/reconstruction_error.png)
 # Application: Sensitivity Analysis of a GSE
 
 Main impact results of different factors on the VIF
