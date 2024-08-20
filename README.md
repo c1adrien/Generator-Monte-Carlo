@@ -3,7 +3,7 @@
 - We propose MICE, a deep learning model that calculates visually interpretable sensitivity indices.
 - We classify market data using a variational autoencoder (implicit volatility surfaces for European options and swaptions) to refine the impact of parameters based on market regimes.
 
-
+# Factor analysis: accelerating the procedure through learning methods
 ### Why look for new sensitivity indices?  
 The first-order Sobol index $S_i$ measuring the contribution of the variable $\mathbf{X}_{\mathbf{i}}$ in the model $Y=\eta(\mathbf{X})$ is given by
 
