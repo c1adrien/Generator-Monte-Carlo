@@ -4,11 +4,11 @@
 - We classify market data using a variational autoencoder (implicit volatility surfaces for European options and swaptions) to refine the impact of parameters based on market regimes.
 
 
-Why look for new sensitivity indices?  
-The first-order Sobol index \( S_i \) measuring the contribution of the variable \( \mathbf{X}_{\mathbf{i}} \) in the model \( Y=\eta(\mathbf{X}) \) is given by
+## Why look for new sensitivity indices?  
+The first-order Sobol index $S_i$ measuring the contribution of the variable $\mathbf{X}_{\mathbf{i}}$ in the model $Y=\eta(\mathbf{X})$ is given by
 
 $$
-S_i=\frac{V\left[\mathbb{E}\left(Y \mid X_i\right]\right)}{V(Y)}
+S_i=\frac{V\left[\mathbb{E}\left(Y \mid X_i\right)\right]}{V(Y)}
 $$
 
-This model is unsuitable for multimodal distributions, as is the case in our applications. One approach is to use a coefficient based on mutual information, \( \rho_{MI}\left(X_1, X_2\right)=\sqrt{1-\exp\left[-2MI\left(X_1, X_2\right)\right]} \), where \( MI(X, Y)=H(Y)-H(Y \mid X) \) is the mutual information and \( H \) is the Shannon entropy.
+This model is unsuitable for multimodal distributions, as is the case in our applications. One approach is to use a coefficient based on mutual information, $\rho_{MI}\left(X_1, X_2\right)=\sqrt{1-\exp\left[-2MI\left(X_1, X_2\right)\right]}$, where $MI(X, Y)=H(Y)-H(Y \mid X)$ is the mutual information and $H$ is the Shannon entropy.
