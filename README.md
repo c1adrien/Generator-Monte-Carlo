@@ -32,9 +32,9 @@ We built a Bayesian Variational Autoencoder (VAE) to generalize PCA on swaption 
 Main impact results of different factors on the VIF
 - Swaption volatilities: Over 50%
 - Market data for CALL options: Around 30%
-- Interest rate model shift: $0.4\%$
-- Correlations: $0.2\%
-- Embedded GLMM parameters: $0.1\%
+- Interest rate model shift: 0.4%
+- Correlations: 0.2%
+- Embedded GLMM parameters: 0.1%
 
 The thesis also details the behavior of embedded parameters when market data changes (and for the SCR).
 
