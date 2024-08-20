@@ -35,7 +35,7 @@ We built a Bayesian Variational Autoencoder (VAE) to generalize PCA on swaption 
 ![Alt Text](https://github.com/c1adrien/Economic_scenario_generators/blob/main/reconstruction_error.png)
 # Application: Sensitivity Analysis of a GSE
 
-Main impact results of different factors on the VIF
+### Main impact results of different factors on the VIF
 - Swaption volatilities: Over 50%
 - Market data for CALL options: Around 30%
 - Interest rate model shift: 0.4%
@@ -44,7 +44,7 @@ Main impact results of different factors on the VIF
 
 The thesis also details the behavior of embedded parameters when market data changes (and for the SCR).
 
-Potential future applications
+### Potential future applications
 The main idea we bring forward is to recalibrate sensitive parameters only when the market context changes enough for these parameters to have a real impact on the VIF or SCR.
 
 Accurately predicting the value of the SCR or VIF based on market data is complex due to the evolving nature of ALM models. However, our work can be used to anticipate which parameters to monitor when the market regime changes.
